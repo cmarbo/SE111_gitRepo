@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="W3 Bio Page">
+    <meta name="author" content="Cameron Arbo">
+    <title>W3 | BIO</title>
+
+    <style>
+
+        h1 {
+
+            /*border:1px solid black*/
+            text-align:center;
+            color:rgb(21, 86, 182);
+
+        }
+
+        .border {
+
+            border:1px solid black;
+            margin-bottom:10px;
+
+        }
+
+        #nav {
+            /*nav is an ID in the HTML, called in using a #   */
+
+            border:1px solid rgb(0, 0, 0);
+            text-align:center;
+            color:rgb(4, 23, 110)
+        }
+
+        #wrapper {
+
+            width:900px;
+            margin:auto;/*adds equal space to left and right sides, requires a width value applied*/
+        }
+
+        .bg-main {
+
+            background-color:white;
+        }
+
+        .link {
+
+            font-size:26px;
+            text-decoration:none;
+            margin-right:15px;
+        }
+
+        #footer {
+
+            text-align:center;
+        }
+
+        ul {
+            text-align: center;
+            list-style-position: inside;
+        }
+
+    </style>
+</head>
+<body style="background-color:rgb(255, 250, 250)">
+    
+    <!-- wrapper holds the entire page content-->
+    <div id="wrapper">
+
+        <!--header is content that loads first/at top of page-->
+        <div id="header" class="border bg-main">
+
+            <!--name of the page-->
+            <h1 id="title">CAMERON ARBO</h1>
+
+
+        </div><!--/ #header-->
+
+        <!--navigaion bar, holds the links to other pages-->
+        <div id="nav" class="border" style="color: rgb(1, 12, 116);">
+
+            <a href="index.html" class="link">HOME</a>
+            <a href="schooling.html" class="link">SCHOOLS</a>
+            <a href="hobbies.html" class="link">HOBBIES</a>
+
+
+        </div><!--/ #nav-->    
+
+        <!--main page content-->
+        <div id="bio" class="border" style="text-align: center;">
+
+            <h2 style="text-align: center; color:rgb(7, 100, 175)"><u>Schooling</u></h2>
+            
+                <h3 style="text-align: center;">
+                <ul>
+                    <li>New England Institute of Technology</li>
+                    <li>Level 2 Coswain Academy in Little Creek, VA (as shown below)</li>
+                    <img src="images/NAB Little Creek Navy Base.jpg" alt="Little Creek Navy Base">
+                    <li>Concord High School</li>
+                </ul>
+                </h3>
+
+        </div><!--/ #content-->
+        
+        <!--footer-->
+        <div id="footer" class="border bg-main">
+        
+            <p>&copy; 2021, C ARBO | SE111.02</p>
+        
+        </div><!--/ #footer-->
+        
+    </div><!--/ #wrapper -->
+
+
+
+
+</body>
+</html>
