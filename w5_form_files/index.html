@@ -30,7 +30,7 @@
             <tbody>
                 <tr>
                     <td>
-                        <label for="g-first">Parent/Guardian Name</label>
+                        <label for="gfirst">Parent/Guardian Name</label>
                     </td>
                     <td> 
                         <input type="text" name="gfirst" id="gfirst" placeholder="First Name" maxlength="20" required><br>
@@ -39,17 +39,19 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="c-first">Child First</label>
+                        <label for="cfirst">Child First</label>
                     </td>
                     <td>
-                        <input type="text" name="cfirst" id="c-first" placeholder="Child's First Name" required>
+                        <input type="text" name="cfirst" id="cfirst" placeholder="Child's First Name" required>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <label for="age">Child's Age</label>
                     </td>
-                    <td>3</td>
+                    <td>
+                        <input type="number" required name="age" id="age" value="3">
+                    </td>
                 </tr>
                 <tr>
                     <td>
@@ -70,7 +72,7 @@
                         <label for="time">Start Time</label>
                     </td>
                     <td>
-                        <input type="time" name="time" id="s-time" required>
+                        <input type="time" name="time" id="time" required>
                     </td>
                 </tr>
                 <tr>
@@ -78,7 +80,7 @@
                         <label for="guests">Number of Guests</label>
                     </td>
                     <td>
-                        <input type="number" name="guests" value="5">
+                        <input type="number" name="guests" id="guests" value="5">
                     </td>
                 </tr>
                 <tr>
@@ -100,13 +102,13 @@
                 <tr>
                     <td>Drinks</td>
                     <td>
-                        <input type="checkbox" name="drink1" id="drink1" value="coke">
+                        <input type="checkbox" name="drink1" checked="true" id="drink1" value="coke" >
                         <label for="drink1">Coke</label><br>
                         <input type="checkbox" name="drink2" id="drink2" value="sprite">
                         <label for="drink2">Sprite</label><br>
                         <input type="checkbox" name="drink3" id="drink3"  value="fruit punch">
                         <label for="drink3">fruit punch</label><br>
-                        <input type="checkbox" name="drink4" id="drink" value="lemonade">
+                        <input type="checkbox" name="drink4" id="drink4" value="lemonade">
                         <label for="drink4">lemonade</label><br>
                         <input type="checkbox" name="drink5" id="drink5" value="iced tea">
                         <label for="drink5">iced tea</label><br>
@@ -115,7 +117,7 @@
                 <tr>
                     <td>Cake</td>
                     <td>
-                        <select name="cake" id="cake" selected>
+                        <select name="cake" id="cake">
 
                         <option selected>Chocolate</option>
                         <option>Vanilla</option>
