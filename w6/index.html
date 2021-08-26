@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="W6 Javascript Pay Calculator">
+    <meta name="author" content="Cameron Arbo">
+    
+    <title>Pay Calculator</title>
+
+</head>
+<body>
+
+    <script>
+        
+        //user's hourly pay
+        var hp = Number(prompt('Enter your hourly pay: '))
+
+        //user's hours worked over a two week period
+        var hours = Number(prompt('Enter your hours worked over two weeks: '))
+
+        //base tax rate
+        var taxRate = 20
+
+        //user's two week gross pay
+        var grossPay = hp * hours
+
+        //amount of $ taken out for taxes
+        var uncleSam = grossPay * (taxRate/100)
+
+        //Net pay; user's take home $$$
+        var netPay = grossPay - uncleSam
+
+        //pop up for final displays
+        alert(`Gross Pay: $${grossPay.toFixed(2)}\n Unle Sam's Share: $${uncleSam.toFixed(2)}\n Net Pay: $${netPay.toFixed(2)}`)
+        
+        //console.logs
+        console.log(`Gross Pay: $${grossPay.toFixed(2)}`)
+        console.log(`Uncle Sam's Share: $${uncleSam.toFixed(2)}`)
+        console.log(`Net Pay: $${netPay.toFixed(2)}`)
+    
+    </script>
+
+    
+</body>
+</html>
