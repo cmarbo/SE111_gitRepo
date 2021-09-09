@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mini Demo from Course Examples</h1>
+    <h3>SE111.02 | 202140</h3>
+
+    <script>
+    //in document JS
+
+        var health = 100
+
+        /*function loseHealth(_amount)
+        {
+            health -= _amount
+        }
+        function getHealth(_amount)
+        {
+            health += _amount
+        }
+        loseHealth(5)
+        //health now equals 95
+        getHelath(5)
+        //health now equal 100 again
+        */
+    
+        /*var health = 100
+
+        function modifyHealth(_amount)
+        {
+            health += _amount
+        }
+
+        modifyHealth(-10)
+        //health now equals 90
+
+        modifyHealth(10)
+        //health now equals 100 again
+        */
+
+        function modifyHealth(_amount)
+        {
+            var health = 100;
+            health -= _amount
+            return health
+        }
+        var characterHealth = modifyHealth(5)
+        //characterHealth now equals 95, but the health variable is gone.
+    
+    
+    </script>
+
+    
+</body>
+</html>
