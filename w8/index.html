@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
 	<meta name="author" content="Cameron Arbo">
-=======
->>>>>>> 931536cac84d045f0cc55aa30b810217ae49cb8b
     <title>Week 8 | Homework Assignment</title>
 </head>
 <body>
@@ -40,7 +37,6 @@
     <script>
 	
 		//Store the elements (tags) in variables
-<<<<<<< HEAD
 		var firstName = document.querySelector(`#first`)
 		var lastName = document.querySelector(`#last`)
 		
@@ -51,15 +47,6 @@
 
 		//Make the button clickable. When clicked it calls the calcAndDisplay function.
 		document.querySelector(`#button`).addEventListener(`click`, calcAndDisplay)
-=======
-		
-
-		//Make an array to store the people
-		people
-
-		//Make the button clickable. When clicked it calls the calcAndDisplay function.
-		
->>>>>>> 931536cac84d045f0cc55aa30b810217ae49cb8b
 		
 		/*-----------------------------------------------------
 		Will add objects into the people array. 
@@ -84,26 +71,15 @@
 				//2. last: will be a string that uses the last Input's value
 
             var person = {
-<<<<<<< HEAD
 				first: firstName.value,
 				last: lastName.value
-=======
-
->>>>>>> 931536cac84d045f0cc55aa30b810217ae49cb8b
 
 
             }//end of person object
 
 
-<<<<<<< HEAD
 			//Add the person object into the people array by using the .push() array method.
 			people.push(person)
-=======
-
-
-			//Add the person object into the people array by using the .push() array method.
-			
->>>>>>> 931536cac84d045f0cc55aa30b810217ae49cb8b
 
 			//Bubble sort people on the last name
 			for(let i=0; i < people.length-1; i++)
@@ -120,7 +96,6 @@
 			}//end of bubble sort algorithm!
 
 			//console.log the people array to check that the people array is formatted correctly and is populated with the correct objects
-<<<<<<< HEAD
 			console.log(people)
 			
 
@@ -131,17 +106,6 @@
 			for(let i = 0; i < people.length; i++)
             {
 				console.log("hi")
-=======
-			
-
-			//create a variable called 'output' that has an empty string value stored to 
-			
-
-			//Loop through the objects in the people array
-			for()
-            {
-
->>>>>>> 931536cac84d045f0cc55aa30b810217ae49cb8b
 				//Loop through each property in the object
 				for(key in people[i])
                 {
@@ -149,7 +113,6 @@
 					//Output will resemble:
 					//FIRST: Ivan
 					//LAST: Drago
-<<<<<<< HEAD
 					console.log("hi")
 					output += `<p>${key.toUpperCase()}: ${people[i][key]} </p>`
 					console.log("hi")
@@ -157,35 +120,17 @@
                 }
                 //add a <hr> to the output at the end of this outter loop so a horizontal rule is displayed inbetween each person being displayed to the screen.
 				output += `<hr>`
-=======
-				
-
-                }
-                //add a <hr> to the output at the end of this outter loop so a horizontal rule is displayed inbetween each person being displayed to the screen.
-				
->>>>>>> 931536cac84d045f0cc55aa30b810217ae49cb8b
 
 
 			}//end of loop going through people array to edit 'output'
 
 				//log the output string
 				//replace the outputDiv's inner HTML with the output string
-<<<<<<< HEAD
 				document.querySelector(`#output`).innerHTML = output
 				
-=======
-				
-
-
-
->>>>>>> 931536cac84d045f0cc55aa30b810217ae49cb8b
 		}
 	
     </script>
     
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 931536cac84d045f0cc55aa30b810217ae49cb8b
